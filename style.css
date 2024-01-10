@@ -248,8 +248,8 @@ header h1 {
 
 .tekststart02 p {
   text-align: center;
-  margin-inline: 25%;
-  padding-inline: 2%;
+  margin-inline: 1%;
+  padding-inline: 24%;
   margin-top: 2%;
   font-family: "M PLUS 1p", sans-serif;
   font-size: 1.1rem;
@@ -466,6 +466,16 @@ header h1 {
   font-family: "M PLUS 1p", sans-serif;
   font-size: 1.1rem;
   padding-inline: 20%;
+}
+
+@media screen and (max-width: 800px) {
+  .tekststart02 p {
+    margin-top: 3%;
+    font-size: 1.1rem;
+    padding-bottom: 3%;
+    margin-inline: 7px;
+    padding-inline: 30px;
+  }
 }
 
 /* 02 kode billeder */
@@ -835,6 +845,36 @@ header h1 {
   margin-left: 556px;
 }
 
+@media screen and (max-width: 800px) {
+  .svg {
+    margin-left: 10px;
+  }
+  .stilp {
+    margin-inline: 40px;
+  }
+  .aktivi {
+    width: 254px;
+    height: 288px;
+    margin-left: 110px;
+  }
+  .statetekst {
+    margin-inline: 90px;
+  }
+  .aktivitekst {
+    margin-left: 70px;
+  }
+  .state {
+    margin-left: 20px;
+  }
+  .sttekst {
+    margin-left: 30px;
+    margin-inline: 50px;
+  }
+  .skitsebillede {
+    width: 460px;
+    height: 240px;
+  }
+}
 /* indhold */
 
 .ptema5 {
@@ -899,10 +939,17 @@ header h1 {
   margin-top: 26px;
 }
 
+.sesamvideo {
+  margin: 0;
+  margin-left: 512px;
+}
+
 @media (max-width: 767px) {
   .ptema5 {
-    padding-bottom: 20px;
-    margin: 0;
+    padding-bottom: 20px; /* Juster efter behov */
+    margin-inline: 0;
+    margin-left: 0;
+    margin-top: 20px; /* Juster efter behov */
   }
 
   .headlinevideo,
@@ -912,13 +959,14 @@ header h1 {
   .separationslinje1,
   .redesignstarttek,
   .researchtekst,
-  .researchbillede {
+  .researchbillede,
+  .design {
     margin: 0;
+    margin-inline: 10px;
   }
   .sesamvideo {
-    margin-left: 520px;
-    margin-top: -93px;
-    padding-bottom: 62px;
+    margin: 0;
+    padding-bottom: 20px;
   }
 }
 
@@ -937,12 +985,6 @@ header h1 {
 .ide h3 {
   text-align: center;
   margin-bottom: 58px;
-}
-
-.sesamvideo {
-  margin-left: 520px;
-  margin-top: -93px;
-  padding-bottom: 62px;
 }
 
 .kodebillede {
