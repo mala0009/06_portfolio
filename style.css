@@ -1134,20 +1134,10 @@ a footer {
 }
 
 @media (max-width: 767px) {
-  body {
-    margin-bottom: 60px;
-    position: relative;
-    min-height: 100%;
-  }
-
-  main {
-    padding-bottom: 150px;
-  }
-
   footer {
     padding-top: 1rem;
     padding-bottom: 10px;
-    position: fixed; /* Ændret til fixed */
+    position: relative;
     bottom: 0;
     width: 100%;
     background-color: white;
@@ -1156,7 +1146,7 @@ a footer {
 
   .grid_footer {
     margin-left: 2%;
-    padding-bottom: 20px;
+    margin-bottom: -13px;
   }
 
   .footer_logo {
