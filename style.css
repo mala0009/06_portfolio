@@ -1089,8 +1089,8 @@ header h1 {
   margin-inline: 1%;
   padding-inline: 24%;
   margin-top: 2%;
-  margin: 0; /* Fjern margin for at undgå ekstra mellemrum mellem sætningerne */
-  padding: 3% 93px; /* Juster padding efter behov */
+  margin: 0;
+  padding: 3% 93px;
   font-family: "M PLUS 1p", sans-serif;
   font-size: 1.2rem;
 }
@@ -1141,13 +1141,13 @@ a footer {
   }
 
   main {
-    padding-bottom: 60px; /* Tilføj padding i bunden af indholdet svarende til footerens højde */
+    padding-bottom: 150px;
   }
 
   footer {
     padding-top: 1rem;
     padding-bottom: 10px;
-    position: fixed;
+    position: fixed; /* Ændret til fixed */
     bottom: 0;
     width: 100%;
     background-color: white;
