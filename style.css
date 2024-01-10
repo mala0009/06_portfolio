@@ -516,11 +516,11 @@ header h1 {
 
 .tekststart03 p {
   text-align: center;
-  margin-inline: 2%;
-  padding-inline: 23%;
+  padding-inline: 24%;
   margin-top: 2%;
   font-family: "M PLUS 1p", sans-serif;
   font-size: 1.1rem;
+  margin-inline: 27px;
 }
 
 /* 03 billeder til brainstorm */
@@ -542,6 +542,14 @@ header h1 {
   margin-left: 6%;
   margin-top: 2%;
 }
+.link h3 {
+  color: #333;
+  font-size: 1.2rem;
+  font-family: "M PLUS 1p", sans-serif;
+  margin-left: 19%;
+  margin-top: 2%;
+  text-align: center;
+}
 
 .procesunderoverskrift1 {
   color: #333;
@@ -555,12 +563,11 @@ header h1 {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 34px;
   max-width: 817px;
-  margin-left: 6%;
   margin-top: -3%;
 }
 
 .grid_1_1_1_4billede img {
-  width: 109%;
+  width: 112%;
   height: 139%;
 }
 
@@ -568,7 +575,7 @@ header h1 {
   color: #333;
   font-size: 1.1rem;
   font-family: "M PLUS 1p", sans-serif;
-  margin-left: 6%;
+  margin-left: -8px;
   margin-top: 10%;
 }
 
@@ -581,17 +588,20 @@ header h1 {
   margin-left: 4%;
   margin-top: 1%;
 }
-
-.webwire {
-  margin-top: -4%;
-  margin-inline: -25%;
-  padding-inline: 21%;
+.testux {
+  margin-top: 111px;
 }
 
 .ux {
   padding-left: 47%;
   margin-left: -163%;
   margin-top: -4%;
+}
+.ux4 {
+  margin-left: 98px;
+}
+.ux5 {
+  margin-left: 105px;
 }
 
 /* BURGER */
@@ -727,15 +737,102 @@ header h1 {
 }
 
 .state {
-  width: 441px;
+  width: 448px;
   height: 288px;
-  margin-left: 42px;
+  margin-left: 478px;
 }
 
 .aktivi {
-  width: 441px;
+  width: 444px;
   height: 288px;
-  margin-left: 42px;
+  margin-left: 256px;
+}
+
+.statetekst {
+  padding-bottom: 45px;
+  margin-left: 101px;
+  margin-top: 27px;
+  margin-inline: 262px;
+}
+
+.aktivitekst {
+  padding-bottom: 56px;
+  margin-left: 283px;
+  margin-top: -21px;
+  color: #333;
+  font-size: 0.9rem;
+  font-family: "M PLUS 1p", sans-serif;
+}
+
+.sttekst {
+  margin-top: 27px;
+  padding-bottom: 45px;
+  margin-inline: 456px;
+  margin-left: 476px;
+}
+
+/* indhold */
+
+.ptema5 {
+  padding-bottom: 45px;
+  margin-inline: 197px;
+  margin-left: 188px;
+  margin-top: 56px;
+}
+
+.headlinevideo {
+  text-align: center;
+}
+
+.youtube {
+  margin-top: 4%;
+  margin-left: 23%;
+}
+
+.pvideo {
+  margin-inline: 236px;
+  margin-left: 231px;
+  margin-top: 40px;
+}
+
+.separationslinje {
+  border: 1px solid #000;
+  margin: 22px 0;
+}
+
+.separationslinje1 {
+  border: 1px solid #000;
+  margin: 22px 0;
+  width: 162%;
+  margin-left: -31%;
+}
+
+.redesignstarttek {
+  color: #333;
+  font-size: 1.1rem;
+  font-family: "M PLUS 1p", sans-serif;
+  margin-inline: 421px;
+  margin-left: 468px;
+  margin-top: 56px;
+}
+
+.researchtekst {
+  margin-inline: 360px;
+  margin-left: 445px;
+  margin-top: 45px;
+  padding-bottom: 47px;
+}
+
+.researchbillede {
+  width: 374px;
+  margin-left: 32px;
+  margin-top: 2px;
+}
+
+.design {
+  text-align: center;
+  padding-bottom: 45px;
+  margin-top: 26px;
 }
 
 @media screen and (min-width: 800px) {
@@ -753,6 +850,104 @@ header h1 {
 .ide h3 {
   text-align: center;
   margin-bottom: 58px;
+}
+
+.sesamvideo {
+  margin-left: 520px;
+  margin-top: -93px;
+  padding-bottom: 62px;
+}
+
+.kodebillede {
+  width: 490px;
+  margin-left: -123px;
+  margin-top: -7px;
+  margin-right: -53px;
+}
+
+.kodebillede1 {
+  width: 331px;
+  margin-left: 91px;
+  margin-top: -7px;
+  margin-right: -53px;
+}
+
+.testbillede {
+  width: 424px;
+  margin-left: -25px;
+  margin-top: 13px;
+  padding-bottom: 59px;
+}
+
+/* om mig */
+
+.billede2 {
+  display: grid;
+  margin-left: 8%;
+  width: 636px;
+  margin-left: 902px;
+  margin-top: 17px;
+}
+
+.mig {
+  width: 610px;
+  margin-left: 53px;
+  margin-top: -349px;
+}
+
+.omoverskrift,
+.kvalitekst {
+  font-size: 1.8rem;
+  top: -19px;
+  color: #333;
+  font-family: "M PLUS 1p", sans-serif;
+  text-align: center;
+}
+
+.kvalitekst {
+  font-size: 1.1rem;
+  margin-top: -464px;
+}
+
+.kvalip {
+  margin-left: 633px;
+  color: #333;
+  font-size: 1rem;
+  font-family: "M PLUS 1p", sans-serif;
+  margin-top: 33px;
+  line-height: 36px;
+  margin-right: 469px;
+  padding-bottom: 256px;
+}
+
+.li {
+  margin-bottom: 12px;
+}
+
+@media (max-width: 600px) {
+  .billede2 {
+    width: 351px;
+    margin-inline: 30px;
+    padding-bottom: 400px;
+  }
+
+  .kvalitekst {
+    font-size: 1.1rem;
+    margin-top: 100px;
+  }
+
+  .mig {
+    width: 100%;
+    margin-inline: 30px;
+    /* Juster eller fjern denne margin-top efter behov */
+  }
+
+  .kvalip {
+    /* margin-inline: 100px; Erstattes med margin-left og margin-right */
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -783,23 +978,53 @@ footer {
 }
 
 .grid_footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center; /* Centrer indholdet vertikalt */
-  justify-content: space-between; /* Placer indholdet i siderne */
-  margin: 0 auto; /* Center footer vandret */
-  max-width: 1200px; /* Juster maksimal bredd */
+  margin-left: 3%;
+  margin-bottom: -25px;
 }
 
 .grid_footer > ul {
   list-style: none;
 }
 
+a footer {
+  align-items: center;
+  justify-content: space-between;
+}
+
 .footer_logo {
-  width: 30%;
-  margin-left: 4rem;
+  width: 6%;
+  margin-left: -4rem;
+  margin-top: -53px;
+  margin-bottom: -23px;
+  line-height: 21px;
+  margin-bottom: -25px;
 }
 
 .wiremobil img {
   width: 50%;
+}
+
+@media (max-width: 767px) {
+  footer {
+    padding-top: 1rem;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 1000;
+  }
+
+  .grid_footer {
+    margin-left: 2%;
+    padding-bottom: 20px;
+  }
+
+  .footer_logo {
+    width: 15%;
+    margin-left: 0;
+    margin-top: -15px; /* Juster denne værdi */
+    margin-bottom: 10px; /* Juster denne værdi */
+  }
+
+  .wiremobil img {
+    width: 80%; /* Juster bredden efter behov */
+  }
 }
