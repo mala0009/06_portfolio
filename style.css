@@ -697,20 +697,17 @@ header h1 {
 .svgbag {
   width: 372px;
   margin-top: -10px;
-  margin-left: 33px;
   height: 229px;
 }
 
 .svgvinder {
   width: 358px;
-  margin-left: 47px;
   margin-top: -10px;
 }
 
 .svggameover {
   width: 358px;
   margin-top: -10px;
-  margin-left: 47px;
 }
 
 .overskriftide {
@@ -728,12 +725,6 @@ header h1 {
   margin-left: 198px;
 }
 
-/* .state {
-  width: 448px;
-  height: 288px;
-  margin-left: 556px;
-} */
-
 .state {
   width: 50%;
 }
@@ -744,9 +735,6 @@ header h1 {
 }
 
 .aktivi {
-  /*   width: 444px;
-  height: 288px;
-  margin-left: 256px; */
   width: 50%;
 }
 .statetekst {
@@ -959,40 +947,6 @@ header h1 {
   font-size: 1.2rem;
 }
 
-/* laver footer færdig !!! */
-
-/* footer {
-  background-color: white;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-
-.grid_footer {
-  margin-left: 3%;
-  margin-bottom: -25px;
-}
-
-.grid_footer > ul {
-  list-style: none;
-}
-
-a footer {
-  align-items: center;
-  justify-content: space-between;
-}
-
-.footer_logo {
-  width: 6%;
-  margin-left: -4rem;
-  margin-top: -53px;
-  margin-bottom: -23px;
-  line-height: 21px;
-  margin-bottom: -25px;
-} */
-
 .wiremobil img {
   width: 50%;
 }
@@ -1037,43 +991,7 @@ footer {
     align-items: center;
     justify-content: space-between;
   }
-
-  /* .footer_logo {
-    width: 6%;
-    margin-left: -4rem;
-    margin-top: -53px;
-    margin-bottom: -23px;
-    line-height: 21px;
-    margin-bottom: -25px;
-  } */
 }
-/* @media (max-width: 767px) {
-  footer {
-    padding-top: 1rem;
-    padding-bottom: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    background-color: white;
-    z-index: 999;
-  }
-
-  .grid_footer {
-    margin-left: 2%;
-    margin-bottom: -13px;
-  }
-
-  .footer_logo {
-    width: 15%;
-    margin-left: 0;
-    margin-top: -15px;
-    margin-bottom: 10px;
-  }
-
-  .wiremobil img {
-    width: 80%;
-  }
-} */
 
 @media screen and (min-width: 800px) {
 }
@@ -1166,21 +1084,14 @@ footer {
   .stilp {
     margin-inline: 40px;
   }
-  .aktivi {
-    /* width: 254px;
-    height: 288px;
-    margin-left: 110px;  */
-    /*    width: 100%; */
-  }
+
   .statetekst {
     margin-inline: 90px;
   }
   .aktivitekst {
     margin-left: 70px;
   }
-  /* .state {
-    margin-left: 20px;
-  } */
+
   .sttekst {
     margin-left: 30px;
     margin-inline: 50px;
